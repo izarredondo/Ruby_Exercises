@@ -37,15 +37,6 @@
 #       [_ _ _  _ _ _  _ _ _]
 #       [_ _ _  _ _ _  _ _ _]
 
-=begin
-  
-board.each do |row|
-      row_count += 1
-      valid_count += 1 if row == row.uniq
-    end
-    valid_count == row_count ? valid = true : valid = false
-=end
-
 
 class Sudoku
 
